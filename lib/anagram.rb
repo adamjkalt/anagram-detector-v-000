@@ -11,6 +11,7 @@ words.collect do |word_match|
   if word.split("") == word_match.split("")
     word_match
   end
+  end
 end
 
 
