@@ -7,8 +7,10 @@ def initialize(word)
 end
 
 def match(words)
-words.collect do |word|
+words.collect do |word_match|
+  word.split
   
+
 end
 
 
