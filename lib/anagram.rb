@@ -7,6 +7,7 @@ def initialize(word)
 end
 
 def match(words)
+words.collect do |word|
   
 end
 
