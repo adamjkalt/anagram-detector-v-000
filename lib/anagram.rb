@@ -11,7 +11,7 @@ words.collect do |word_match|
   if word.split("").sort == word_match.split("").sort
     word_match
   end
-  end
+end.compact
 end
 
 
