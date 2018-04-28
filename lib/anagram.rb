@@ -8,7 +8,7 @@ end
 
 def match(words)
 words.collect do |word_match|
-  if word.split("") == word_match.split("")
+  if word.split("").sort == word_match.split("").sort
     word_match
   end
   end
