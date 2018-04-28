@@ -8,8 +8,8 @@ end
 
 def match(words)
 words.collect do |word_match|
-  word.split
-  
+  word.split("")
+
 
 end
 
